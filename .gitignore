@@ -1,0 +1,25 @@
+# Output
+[Bb]in/
+[Oo]bj/
+[Ll]ib/
+*.a
+*.dll
+*.dylib
+
+# Xamarin Studio
+*.userprefs
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Common cmake target folders
+build/
+visualstudio/
+xcode/
+
+# Mac specific
+.DS_Store
