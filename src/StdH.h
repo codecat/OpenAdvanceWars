@@ -1,13 +1,8 @@
 #ifndef STD_H_INCLUDED
 #define STD_H_INCLUDED
 
-#ifdef _DEBUG
-#define _CRTDBG_MAP_ALLOC
-#include <crtdbg.h>
-#define new new(_NORMAL_BLOCK, __FILE__, __LINE__)
-#endif
+#include <Engine.h>
 
-#include <Mragpp/StdH.h>
 using namespace Scratch;
 using namespace Mragpp;
 

@@ -1,0 +1,3 @@
+[submodule "src/mragpp"]
+	path = src/Mragpp
+	url = git@github.com:AngeloG/MragPP.git
