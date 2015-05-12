@@ -19,7 +19,7 @@ public:
   CString wo_strVersion;
   CString wo_strSheet;
 
-  CStackArray<CStackArray<CTile>> wo_Tiles;
+	CStackArray<CStackArray<CTile> > wo_Tiles;
   CStackArray<CSprite> wo_Sprites;
 
   unsigned char** wo_pubWalkable; // walkable tiles by currently selected unit

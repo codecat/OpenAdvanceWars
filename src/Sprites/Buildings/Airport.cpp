@@ -1,4 +1,4 @@
-#include "StdH.h"
+#include "../StdH.h"
 #include "Airport.h"
 
 CAirportBuilding::CAirportBuilding()

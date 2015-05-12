@@ -3,7 +3,6 @@
 
 CRTSGame::CRTSGame()
 {
-  _pGame = this;
   gam_iWidth = 640;
   gam_iHeight = 480;
   gam_etPlayingTeam = T_RED;
@@ -22,8 +21,8 @@ void CRTSGame::Initialize()
   LoadSystemFont(34);
   Renderer.PushFont(gam_fntSystem);
 
-  gam_World.Load("Content/Levels/Default.xml");
-  gam_Sheets.Load(Renderer, "Content/Textures/Sheets.xml");
+	gam_World.Load("Content/Levels/Default.xml");
+	gam_Sheets.Load(this, "Content/Textures/Sheets.xml");
   gam_Menu.Initialize();
 
   CPlayerInfo &infoRed = gam_saPlayers.Push();

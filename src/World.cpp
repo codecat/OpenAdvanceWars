@@ -40,7 +40,7 @@ CWorld::~CWorld()
 void CWorld::LoadTileset(const CString &strFilename)
 {
   wo_iTileSize = 32;
-  wo_aniTileset.Load(_pGame->Renderer, strFilename);
+	wo_aniTileset.Load(_pGame, strFilename);
 }
 
 CPathFinding CWorld::CreatePathfindingObject()
@@ -94,7 +94,7 @@ void CWorld::Load(const CString &strFilename)
   if(pXmlLevel->Attributes.HasKey("version")) { wo_strVersion = pXmlLevel->Attributes["version"]; }
   if(pXmlLevel->Attributes.HasKey("sheet"))   { wo_strSheet   = pXmlLevel->Attributes["sheet"]; }
 
-  wo_aniTileset.Load(_pGame->Renderer, wo_strSheet);
+	wo_aniTileset.Load(_pGame, wo_strSheet);
 
   XmlTag* pXmlTiles = file.Query("level/tiles");
   ASSERT(pXmlTiles != 0);
@@ -167,11 +167,11 @@ void CWorld::Load(const CString &strFilename)
       const CString strType = xmlSprite.Attributes["type"].ToLower();
       const Vector2i vPosition = ParseVector2f(xmlSprite.Attributes["position"]).GetAs<2,int>();
 
-           if(strType == "infantry") { pNewUnit = new CInfantryUnit; }
+					 if(strType == "infantry") { pNewUnit = new CInfantryUnit; }
       else if(strType == "mech")     { pNewUnit = new CMechUnit; }
       else if(strType == "recon")    { pNewUnit = new CReconUnit; }
       else if(strType == "tank")     { pNewUnit = new CTankUnit; }
-      else { printf("No known unit type for '%s'\n", strType); ASSERT(FALSE); }
+			else { printf("No known unit type for '%s'\n", (const char*)strType); ASSERT(FALSE); }
 
       if(pNewUnit != 0) {
              if(strTeam == "red")    { pNewUnit->SetTeam(T_RED); }
@@ -179,7 +179,7 @@ void CWorld::Load(const CString &strFilename)
         else if(strTeam == "green")  { pNewUnit->SetTeam(T_GREEN); }
         else if(strTeam == "yellow") { pNewUnit->SetTeam(T_YELLOW); }
         else if(strTeam == "neutral") { printf("Neutral units not allowed\n"); ASSERT(FALSE); }
-        else { printf("No known team type for '%s'\n", strTeam); ASSERT(FALSE); }
+				else { printf("No known team type for '%s'\n", (const char*)strTeam); ASSERT(FALSE); }
         pNewUnit->spr_vGridPosition = vPosition;
         wo_Sprites.Push(pNewUnit);
       }
@@ -201,7 +201,7 @@ void CWorld::Load(const CString &strFilename)
       else if(strType == "port")    { pNewBuilding = new CPortBuilding; }
       else if(strType == "airport") { pNewBuilding = new CAirportBuilding; }
       else if(strType == "silo")    { pNewBuilding = new CSiloBuilding; }
-      else { printf("No known building type for '%s'\n", strType); ASSERT(FALSE); }
+			else { printf("No known building type for '%s'\n", (const char*)strType); ASSERT(FALSE); }
 
       if(pNewBuilding != 0) {
              if(strTeam == "red")     { pNewBuilding->SetTeam(T_RED); }
@@ -209,13 +209,13 @@ void CWorld::Load(const CString &strFilename)
         else if(strTeam == "green")   { pNewBuilding->SetTeam(T_GREEN); }
         else if(strTeam == "yellow")  { pNewBuilding->SetTeam(T_YELLOW); }
         else if(strTeam == "neutral") { pNewBuilding->SetTeam(T_NEUTRAL); }
-        else { printf("No known team type for '%s'\n", strTeam); ASSERT(FALSE); }
+				else { printf("No known team type for '%s'\n", (const char*)strTeam); ASSERT(FALSE); }
         pNewBuilding->spr_vGridPosition = vPosition;
         wo_Sprites.Push(pNewBuilding);
       }
 
     } else {
-      printf("No known sprite for tag '%s'\n", xmlSprite.Name);
+			printf("No known sprite for tag '%s'\n", (const char*)xmlSprite.Name);
       ASSERT(FALSE);
     }
   }

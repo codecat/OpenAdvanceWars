@@ -1,15 +1,12 @@
 #include "StdH.h"
 #include "Game.h"
-#include <SDL_main.h>
 
-extern CRTSGame* _pGame = 0;
+CRTSGame* _pGame = 0;
 
-int main(int argc, char *argv[])
+int main()
 {
-  _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+	_pGame = new CRTSGame;
+	_pGame->Run();
 
-  CRTSGame game;
-  game.Run();
-
-  return 0;
+	return 0;
 }

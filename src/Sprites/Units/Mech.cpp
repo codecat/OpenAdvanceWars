@@ -1,4 +1,4 @@
-#include "StdH.h"
+#include "../StdH.h"
 #include "Mech.h"
 
 CMechUnit::CMechUnit()

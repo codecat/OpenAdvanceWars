@@ -1,4 +1,4 @@
-#include "StdH.h"
+#include "../StdH.h"
 #include "Silo.h"
 
 CSiloBuilding::CSiloBuilding()

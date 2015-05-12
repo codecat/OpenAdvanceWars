@@ -1,4 +1,4 @@
-#include "StdH.h"
+#include "../StdH.h"
 #include "Base.h"
 
 CBaseBuilding::CBaseBuilding()
