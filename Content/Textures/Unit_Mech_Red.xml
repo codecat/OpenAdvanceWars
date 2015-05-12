@@ -1,0 +1,33 @@
+<sheet name="Mech_Red">
+  <anim name="Idle_Right" size="32,32">
+    <alias name="Idle_Left" fliph="true" />
+    <alias name="Idle_Up" fliph="true" />
+    <alias name="Idle_Down" />
+    
+    <frame offset="2,28" time="16" />
+    <frame offset="36,28" time="16" />
+  </anim>
+  
+  <anim name="Move_Left" size="48,48" offset="12,16,32,32">
+    <alias name="Move_Right" fliph="true" />
+    
+    <frame offset="2,92" time="3" />
+    <frame offset="52,92" time="3" />
+    <frame offset="102,92" time="3" />
+    <frame offset="152,92" time="3" />
+  </anim>
+  
+  <anim name="Move_Up" size="48,48" offset="12,16,32,32">
+    <frame offset="210,92" time="3" />
+    <frame offset="260,92" time="3" />
+    <frame offset="310,92" time="3" />
+    <frame offset="360,92" time="3" />
+  </anim>
+  
+  <anim name="Move_Down" size="48,48" offset="12,16,32,32">
+    <frame offset="418,92" time="3" />
+    <frame offset="468,92" time="3" />
+    <frame offset="518,92" time="3" />
+    <frame offset="568,92" time="3" />
+  </anim>
+</sheet>

@@ -1,0 +1,33 @@
+<sheet name="Infantry_Red">
+  <anim name="Idle_Left" size="32,32">
+    <alias name="Idle_Right" fliph="true" />
+    
+    <frame offset="2,32" time="8" />
+    <frame offset="36,32" time="8" />
+    <frame offset="70,32" time="8" />
+    <frame offset="104,32" time="8" />
+  </anim>
+  
+  <anim name="Move_Left" size="48,48" offset="12,16,32,32">
+    <alias name="Move_Right" fliph="true" />
+    
+    <frame offset="2,98" time="3" />
+    <frame offset="52,98" time="3" />
+    <frame offset="102,98" time="3" />
+    <frame offset="152,98" time="3" />
+  </anim>
+  
+  <anim name="Move_Up" size="48,48" offset="8,14,32,32">
+    <frame offset="210,98" time="3" />
+    <frame offset="260,98" time="3" />
+    <frame offset="310,98" time="3" />
+    <frame offset="360,98" time="3" />
+  </anim>
+  
+  <anim name="Move_Down" size="48,48" offset="8,14,32,32">
+    <frame offset="418,98" time="3" />
+    <frame offset="468,98" time="3" />
+    <frame offset="518,98" time="3" />
+    <frame offset="568,98" time="3" />
+  </anim>
+</sheet>

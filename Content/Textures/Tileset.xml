@@ -1,0 +1,136 @@
+<sheet name="Tileset">
+  <anim name="River_NW" size="32,32">
+    <frame offset="0,0" time="8" />
+    <frame offset="0,32" time="8" />
+    <frame offset="0,64" time="8" />
+    <frame offset="0,96" time="8" />
+    <frame offset="0,128" time="8" />
+    <frame offset="0,160" time="8" />
+  </anim>
+  
+  <anim name="River_NE" size="32,32">
+    <frame offset="32,0" time="8" />
+    <frame offset="32,32" time="8" />
+    <frame offset="32,64" time="8" />
+    <frame offset="32,96" time="8" />
+    <frame offset="32,128" time="8" />
+    <frame offset="32,160" time="8" />
+  </anim>
+  
+  <anim name="River_SW" size="32,32">
+    <frame offset="64,0" time="8" />
+    <frame offset="64,32" time="8" />
+    <frame offset="64,64" time="8" />
+    <frame offset="64,96" time="8" />
+    <frame offset="64,128" time="8" />
+    <frame offset="64,160" time="8" />
+  </anim>
+  
+  <anim name="River_SE" size="32,32">
+    <frame offset="96,0" time="8" />
+    <frame offset="96,32" time="8" />
+    <frame offset="96,64" time="8" />
+    <frame offset="96,96" time="8" />
+    <frame offset="96,128" time="8" />
+    <frame offset="96,160" time="8" />
+  </anim>
+  
+  <anim name="River_H" size="32,32">
+    <frame offset="128,0" time="8" />
+    <frame offset="128,32" time="8" />
+    <frame offset="128,64" time="8" />
+    <frame offset="128,96" time="8" />
+    <frame offset="128,128" time="8" />
+    <frame offset="128,160" time="8" />
+  </anim>
+  
+  <anim name="River_V" size="32,32">
+    <frame offset="160,0" time="8" />
+    <frame offset="160,32" time="8" />
+    <frame offset="160,64" time="8" />
+    <frame offset="160,96" time="8" />
+    <frame offset="160,128" time="8" />
+    <frame offset="160,160" time="8" />
+  </anim>
+  
+  <anim name="River_X" size="32,32">
+    <frame offset="192,0" time="8" />
+    <frame offset="192,32" time="8" />
+    <frame offset="192,64" time="8" />
+    <frame offset="192,96" time="8" />
+    <frame offset="192,128" time="8" />
+    <frame offset="192,160" time="8" />
+    <frame offset="192,192" time="8" />
+    <frame offset="192,224" time="8" />
+  </anim>
+  
+  <anim name="Ocean_1" size="32,32">
+    <frame offset="224,0" time="16" />
+    <frame offset="224,32" time="16" />
+    <frame offset="224,64" time="16" />
+    <frame offset="224,96" time="16" />
+    <frame offset="224,128" time="16" />
+    <frame offset="224,160" time="16" />
+  </anim>
+  
+  <anim name="Grass" size="32,32">
+    <frame offset="256,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean" size="32,32">
+    <frame offset="288,0" time="16" />
+    <frame offset="288,32" time="16" />
+    <frame offset="288,64" time="16" />
+    <frame offset="288,96" time="16" />
+    <frame offset="288,64" time="16" />
+    <frame offset="288,32" time="16" />
+  </anim>
+  
+  <anim name="Ocean_TopLeft_In" size="16,16">
+    <frame offset="320,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean_TopRight_In" size="16,16">
+    <frame offset="336,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean_BotLeft_In" size="16,16">
+    <frame offset="352,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean_BotRight_In" size="16,16">
+    <frame offset="368,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean_Bot" size="16,16">
+    <frame offset="384,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean_Top" size="16,16">
+    <frame offset="400,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean_Left" size="16,16">
+    <frame offset="416,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean_Right" size="16,16">
+    <frame offset="432,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean_BotRight_Out" size="16,16">
+    <frame offset="448,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean_BotLeft_Out" size="16,16">
+    <frame offset="464,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean_TopLeft_Out" size="16,16">
+    <frame offset="480,0" pause="true" />
+  </anim>
+  
+  <anim name="Ocean_TopRight_Out" size="16,16">
+    <frame offset="496,0" pause="true" />
+  </anim>
+</sheet>

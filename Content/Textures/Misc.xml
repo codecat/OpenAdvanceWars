@@ -1,0 +1,5 @@
+<sheet name="Misc">
+  <anim name="Walkable" size="32,32">
+    <frame offset="0,0" pause="true" />
+  </anim>
+</sheet>

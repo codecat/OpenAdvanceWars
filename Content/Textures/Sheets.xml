@@ -1,0 +1,16 @@
+<sheets>
+  <sheet>Content/Textures/Menu.png</sheet>
+  <sheet>Content/Textures/MenuSprites.png</sheet>
+  
+  <sheet>Content/Textures/Buildings.png</sheet>
+  <sheet>Content/Textures/Misc.png</sheet>
+  <sheet>Content/Textures/Arrow.png</sheet>
+  
+  <sheet>Content/Textures/Unit_Infantry_Red.png</sheet>
+  <sheet>Content/Textures/Unit_Mech_Red.png</sheet>
+  <sheet>Content/Textures/Unit_Recon_Red.png</sheet>
+  <sheet>Content/Textures/Unit_Tank_Red.png</sheet>
+  
+  <sheet>Content/Textures/Unit_Infantry_Blue.png</sheet>
+  <sheet>Content/Textures/Unit_Mech_Blue.png</sheet>
+</sheets>

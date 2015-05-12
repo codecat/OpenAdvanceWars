@@ -1,0 +1,53 @@
+<sheet name="Arrow">
+  <anim name="TopRight" size="32,32">
+    <frame offset="0,0" pause="true" />
+  </anim>
+  
+  <anim name="BotLeft" size="32,32">
+    <frame offset="0,32" pause="true" />
+  </anim>
+  
+  <anim name="TopLeft" size="32,32">
+    <frame offset="0,64" pause="true" />
+  </anim>
+  
+  <anim name="BotRight" size="32,32">
+    <frame offset="0,96" pause="true" />
+  </anim>
+  
+  <anim name="Vertical" size="32,32">
+    <frame offset="32,0" pause="true" />
+  </anim>
+  
+  <anim name="Horizontal" size="32,32">
+    <frame offset="64,0" pause="true" />
+  </anim>
+  
+  <anim name="End_Up" size="32,32">
+    <frame offset="32,32" pause="true" />
+  </anim>
+  
+  <anim name="End_Down" size="32,32">
+    <frame offset="32,64" pause="true" />
+  </anim>
+  
+  <anim name="End_Left" size="32,32">
+    <frame offset="64,32" pause="true" />
+  </anim>
+  
+  <anim name="End_Right" size="32,32">
+    <frame offset="96,32" pause="true" />
+  </anim>
+  
+  <anim name="Start_Left" size="16,32" offset="0,0,32,32">
+    <alias name="Start_Right" fliph="true" />
+    
+    <frame offset="80,0" pause="true" />
+  </anim>
+  
+  <anim name="Start_Up" size="32,16" offset="0,0,32,32">
+    <alias name="Start_Down" flipv="true" />
+    
+    <frame offset="32,0" pause="true" />
+  </anim>
+</sheet>

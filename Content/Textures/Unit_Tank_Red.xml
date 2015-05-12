@@ -1,0 +1,30 @@
+<sheet name="Tank_Red">
+  <anim name="Idle_Right" size="26,26" offset="-4,0,32,32">
+    <alias name="Idle_Left" fliph="true" />
+    
+    <frame offset="0,0" time="12" />
+    <frame offset="26,0" time="12" />
+    <frame offset="52,0" time="12" />
+    <frame offset="26,0" time="12" />
+  </anim>
+  
+  <anim name="Move_Right" size="26,26" offset="-4,0,32,32">
+    <alias name="Move_Left" fliph="true" />
+    
+    <frame offset="0,26" time="2" />
+    <frame offset="26,26" time="2" />
+    <frame offset="52,26" time="2" />
+  </anim>
+  
+  <anim name="Move_Down" size="22,28" offset="-6,2,32,32">
+    <frame offset="0,52" time="2" />
+    <frame offset="22,52" time="2" />
+    <frame offset="44,52" time="2" />
+  </anim>
+  
+  <anim name="Move_Up" size="22,30" offset="-6,4,32,32">
+    <frame offset="0,80" time="2" />
+    <frame offset="22,80" time="2" />
+    <frame offset="44,80" time="2" />
+  </anim>
+</sheet>

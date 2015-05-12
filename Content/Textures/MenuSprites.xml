@@ -1,0 +1,49 @@
+<sheet name="MenuSprites">
+  <anim name="Icon_Capture" size="30,30">
+    <frame offset="4,136" pause="true" />
+  </anim>
+  
+  <anim name="Icon_Wait" size="30,30">
+    <frame offset="1,170" pause="true" />
+  </anim>
+  
+  <anim name="Icon_Fire" size="30,30">
+    <frame offset="4,202" pause="true" />
+  </anim>
+  
+  <anim name="Icon_NoFire" size="30,30">
+    <frame offset="4,234" pause="true" />
+  </anim>
+  
+  <anim name="Icon_Deploy" size="30,30">
+    <frame offset="2,300" pause="true" />
+  </anim>
+  
+  <anim name="Icon_Dive" size="30,30">
+    <frame offset="0,366" pause="true" />
+  </anim>
+  
+  <anim name="Icon_Repair" size="30,30">
+    <frame offset="38,330" pause="true" />
+  </anim>
+  
+  <anim name="Icon_EndTurn" size="30,30">
+    <frame offset="40,264" pause="true" />
+  </anim>
+  
+  <anim name="Icon_Help" size="30,30">
+    <frame offset="71,168" pause="true" />
+  </anim>
+  
+  <anim name="Icon_Heart" size="16,16">
+    <frame offset="301,294" pause="true" />
+  </anim>
+  
+  <anim name="Icon_Fuel" size="16,16">
+    <frame offset="301,314" pause="true" />
+  </anim>
+  
+  <anim name="Icon_Ammo" size="16,16">
+    <frame offset="301,333" pause="true" />
+  </anim>
+</sheet>

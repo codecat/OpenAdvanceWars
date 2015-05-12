@@ -1,0 +1,45 @@
+<!--
+These aliases are for different team colors, for later..
+TODO: Implement CTexture::ChangeHue or something similar (maybe a CTexture::Clone()?)
+TODO: Implement aliases with hues
+<alias name="Top_Blue" hue="-160" />
+<alias name="Top_Green" hue="120" />
+<alias name="Top_Yellow" hue="50" />
+-->
+<sheet name="Menu">
+  <anim name="TopLeft_Red" size="6,10">
+    <frame offset="0,0" pause="true" />
+  </anim>
+  
+  <anim name="Top_Red" size="2,10">
+    <frame offset="6,0" pause="true" />
+  </anim>
+  
+  <anim name="TopRight_Red" size="8,10">
+    <frame offset="8,0" pause="true" />
+  </anim>
+  
+  <anim name="Left_Red" size="6,2">
+    <frame offset="0,10" pause="true" />
+  </anim>
+  
+  <anim name="Mid_Red" size="2,2">
+    <frame offset="6,10" pause="true" />
+  </anim>
+  
+  <anim name="Right_Red" size="8,2">
+    <frame offset="8,10" pause="true" />
+  </anim>
+  
+  <anim name="BotLeft_Red" size="6,12">
+    <frame offset="0,12" pause="true" />
+  </anim>
+  
+  <anim name="Bot_Red" size="2,12">
+    <frame offset="6,12" pause="true" />
+  </anim>
+  
+  <anim name="BotRight_Red" size="8,12">
+    <frame offset="8,12" pause="true" />
+  </anim>
+</sheet>

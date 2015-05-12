@@ -1,0 +1,44 @@
+<level name="Default" author="Angelo" version="1.0" sheet="Content/Textures/Tileset.png">
+  <tiles width="20" height="15">
+    wwwwwwwwwwwwwwwwwwww
+    w..............ww..w
+    w..............ww..w
+    w......w.......ww..w
+    w......w...........w
+    w......w.......ww..w
+    w..............ww..w
+    w.............www..w
+    w..................w
+    w..................w
+    w....ww.w..........w
+    w...wwwwwwwwwwww...w
+    w...wwwwwwwwwwww...w
+    w..................w
+    wwwwwwwwwwwwwwwwwwww
+  </tiles>
+  
+  <sprites>
+    <unit team="Red" type="Infantry" position="5,3" />
+    <unit team="Red" type="Mech" position="5,4" />
+    <unit team="Red" type="Recon" position="5,5" />
+    <unit team="Red" type="Tank" position="8,5" />
+    
+    <unit team="Blue" type="Infantry" position="10,3" />
+    <unit team="Blue" type="Mech" position="10,4" />
+    
+    <building team="Red" type="HQ" position="3,3" />
+    <building team="Red" type="City" position="4,3" />
+    <building team="Red" type="Base" position="3,4" />
+    <building team="Red" type="Airport" position="2,3" />
+    
+    <building team="Blue" type="HQ" position="12,3" />
+    <building team="Blue" type="City" position="11,3" />
+    <building team="Blue" type="Base" position="12,4" />
+    <building team="Blue" type="Airport" position="13,3" />
+    
+    <building team="Neutral" type="Silo" position="6,6" />
+    <building team="Neutral" type="City" position="6,7" />
+    <building team="Neutral" type="City" position="8,7" />
+    <building team="Neutral" type="Base" position="7,8" />
+  </sprites>
+</level>

@@ -1,0 +1,147 @@
+<sheet name="Buildings">
+  <!-- ********************
+       * HQs
+       ******************** -->
+  <anim name="HQ_Red" size="32,64" offset="0,32,32,64">
+    <frame offset="539,634" time="45" />
+    <frame offset="667,634" time="15" />
+  </anim>
+  
+  <anim name="HQ_Blue" size="32,64" offset="0,32,32,64">
+    <frame offset="571,634" time="45" />
+    <frame offset="699,634" time="15" />
+  </anim>
+  
+  <anim name="HQ_Green" size="32,64" offset="0,32,32,64">
+    <frame offset="603,634" time="45" />
+    <frame offset="731,634" time="15" />
+  </anim>
+  
+  <anim name="HQ_Yellow" size="32,64" offset="0,32,32,64">
+    <frame offset="635,634" time="45" />
+    <frame offset="763,634" time="15" />
+  </anim>
+  
+  <anim name="HQ_Neutral" size="32,64" offset="0,32,32,64">
+    <frame offset="511,636" pause="true" />
+  </anim>
+  
+  <!-- ********************
+       * Cities
+       ******************** -->
+  <anim name="City_Red" size="32,40" offset="0,8,32,32">
+    <frame offset="542,182" time="45" />
+    <frame offset="542,226" time="15" />
+  </anim>
+  
+  <anim name="City_Blue" size="32,40" offset="0,8,32,32">
+    <frame offset="588,182" time="45" />
+    <frame offset="586,226" time="15" />
+  </anim>
+  
+  <anim name="City_Green" size="32,40" offset="0,8,32,32">
+    <frame offset="632,182" time="45" />
+    <frame offset="634,226" time="15" />
+  </anim>
+  
+  <anim name="City_Yellow" size="32,40" offset="0,8,32,32">
+    <frame offset="676,182" time="45" />
+    <frame offset="680,226" time="15" />
+  </anim>
+  
+  <anim name="City_Neutral" size="32,40" offset="0,8,32,32">
+    <frame offset="718,182" pause="true" />
+  </anim>
+  
+  <!-- ********************
+       * Bases
+       ******************** -->
+  <anim name="Base_Red" size="32,54" offset="0,22,32,32">
+    <frame offset="544,274" time="45" />
+    <frame offset="544,332" time="15" />
+  </anim>
+  
+  <anim name="Base_Blue" size="32,54" offset="0,22,32,32">
+    <frame offset="592,274" time="45" />
+    <frame offset="592,332" time="15" />
+  </anim>
+  
+  <anim name="Base_Green" size="32,54" offset="0,22,32,32">
+    <frame offset="638,274" time="45" />
+    <frame offset="640,332" time="15" />
+  </anim>
+  
+  <anim name="Base_Yellow" size="32,54" offset="0,22,32,32">
+    <frame offset="684,274" time="45" />
+    <frame offset="684,332" time="15" />
+  </anim>
+  
+  <anim name="Base_Neutral" size="32,54" offset="0,22,32,32">
+    <frame offset="734,274" time="45" />
+    <frame offset="732,332" time="15" />
+  </anim>
+  
+  <!-- ********************
+       * Airports
+       ******************** -->
+  <anim name="Airport_Red" size="32,36" offset="0,4,32,32">
+    <frame offset="538,506" time="45" />
+    <frame offset="538,550" time="15" />
+  </anim>
+  
+  <anim name="Airport_Blue" size="32,36" offset="0,4,32,32">
+    <frame offset="584,506" time="45" />
+    <frame offset="584,550" time="15" />
+  </anim>
+  
+  <anim name="Airport_Green" size="32,36" offset="0,4,32,32">
+    <frame offset="630,506" time="45" />
+    <frame offset="630,550" time="15" />
+  </anim>
+  
+  <anim name="Airport_Yellow" size="32,36" offset="0,4,32,32">
+    <frame offset="678,506" time="45" />
+    <frame offset="678,550" time="15" />
+  </anim>
+  
+  <anim name="Airport_Neutral" size="32,36" offset="0,4,32,32">
+    <frame offset="724,506" time="45" />
+    <frame offset="724,550" time="15" />
+  </anim>
+  
+  <!-- ********************
+       * Ports
+       ******************** -->
+  <anim name="Port_Red" size="32,42" offset="0,10,32,32">
+    <frame offset="542,402" time="45" />
+    <frame offset="544,450" time="15" />
+  </anim>
+  
+  <anim name="Port_Blue" size="32,42" offset="0,10,32,32">
+    <frame offset="588,402" time="45" />
+    <frame offset="588,450" time="15" />
+  </anim>
+  
+  <anim name="Port_Green" size="32,42" offset="0,10,32,32">
+    <frame offset="636,402" time="45" />
+    <frame offset="636,450" time="15" />
+  </anim>
+  
+  <anim name="Port_Yellow" size="32,42" offset="0,10,32,32">
+    <frame offset="682,402" time="45" />
+    <frame offset="682,450" time="15" />
+  </anim>
+  
+  <anim name="Port_Neutral" size="32,42" offset="0,10,32,32">
+    <frame offset="728,402" time="45" />
+    <frame offset="728,450" time="15" />
+  </anim>
+  
+  <!-- ********************
+       * Misc
+       ******************** -->
+  <anim name="Silo" size="32,48" offset="0,16,32,32">
+    <frame offset="384,262" pause="true" />
+    <frame offset="416,262" pause="true" />
+  </anim>
+</sheet>
