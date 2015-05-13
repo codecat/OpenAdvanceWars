@@ -181,7 +181,7 @@ void CUnitSprite::AddNode(const SGridNode &parent, int x, int y)
   }
 
   // if already queued for walking
-  if(spr_saWalkableNodes.FindAny([=](SGridNode &node) { return node.x == newX && node.y == newY; }) != -1) {
+  if(spr_saWalkableNodes.FindAny([&](SGridNode &node) { return node.x == newX && node.y == newY; }) != -1) {
     return;
   }
 
@@ -295,9 +295,9 @@ void CUnitSprite::NavigationFinished()
   CWorldSelection* pws = GetWorldSelection();
 
   if(pws->spr_bSelected) {
-    CMenu &menu = _pGame->gam_Menu;
-    menu.Begin([=]() {
-      if(menu.men_strLastAction == "Fire") {
+    CMenu* pMenu = &_pGame->gam_Menu;
+    pMenu->Begin([=]() {
+      if(pMenu->men_strLastAction == "Fire") {
         //TODO
       } else {
         StartAnimation("Idle_" + GetLookDirectionString());
@@ -319,23 +319,23 @@ void CUnitSprite::NavigationFinished()
     }
 
     if(bFireMenu) {
-      menu.Add("Fire", "Fire", true, [=]{
+      pMenu->Add("Fire", "Fire", true, [=]{
         pws->spr_bAiming = true;
       });
     }
 
-    menu.Add("Wait", "Wait", true, [=]{
+    pMenu->Add("Wait", "Wait", true, [=]{
       spr_bUsed = true;
       Unselect();
     });
 
-    menu.Add("Cancel", "EndTurn", true, [=]{
+    pMenu->Add("Cancel", "EndTurn", true, [=]{
       spr_vGridPosition = spr_vPreNavigation;
       pws->spr_bWalkableVisible = true;
       pw->wo_psprArrowSource = this;
     });
 
-    menu.Show();
+    pMenu->Show();
   }
 }
 
