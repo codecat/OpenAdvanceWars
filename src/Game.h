@@ -8,7 +8,7 @@
 
 #include <Mragpp/Game.h>
 
-class CRTSGame : public CGame
+class CAWGame : public CGame
 {
 public:
   CWorld gam_World;
@@ -19,8 +19,8 @@ public:
   ETeam gam_etPlayingTeam;
 
 public:
-  CRTSGame();
-  ~CRTSGame();
+  CAWGame();
+  ~CAWGame();
 
   void Initialize();
 

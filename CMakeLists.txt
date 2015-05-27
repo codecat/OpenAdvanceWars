@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.9)
 
-project(rts)
+project(aw2)
 
 if(NOT WIN32)
 	set(CMAKE_CXX_FLAGS "-std=c++0x")
@@ -11,7 +11,7 @@ set(CMAKE_BUILD_TYPE Debug)
 
 add_definitions(-DDEBUG)
 
-add_executable(rts
+add_executable(aw2
 	src/Main.cpp
 	src/StdH.h
 	
@@ -43,7 +43,7 @@ add_executable(rts
 
 add_subdirectory(src/Mragpp)
 
-target_link_libraries(rts
+target_link_libraries(aw2
 	Mragpp
 )
 

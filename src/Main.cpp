@@ -8,7 +8,7 @@
 #include <errno.h>
 #endif
 
-CRTSGame* _pGame = 0;
+CAWGame* _pGame = 0;
 
 int main()
 {
@@ -37,7 +37,7 @@ int main()
 		return 1;
 	}
 
-	_pGame = new CRTSGame;
+	_pGame = new CAWGame;
 	_pGame->Run();
 
 	return 0;

@@ -6,8 +6,8 @@
 using namespace Scratch;
 using namespace Mragpp;
 
-class CRTSGame;
-extern CRTSGame* _pGame;
+class CAWGame;
+extern CAWGame* _pGame;
 
 enum ETeam
 {

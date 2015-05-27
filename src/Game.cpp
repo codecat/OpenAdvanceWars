@@ -1,21 +1,21 @@
 #include "StdH.h"
 #include "Game.h"
 
-CRTSGame::CRTSGame()
+CAWGame::CAWGame()
 {
   gam_iWidth = 640;
   gam_iHeight = 480;
   gam_etPlayingTeam = T_RED;
 }
 
-CRTSGame::~CRTSGame()
+CAWGame::~CAWGame()
 {
   CPlayerInfo::pi_texBlock.Destroy();
 }
 
-void CRTSGame::Initialize()
+void CAWGame::Initialize()
 {
-  Window.SetTitle("Advance Wars");
+  Window.SetTitle("Open Advance Wars");
 
   //TODO: Make new Fontmap text rendering classes
   LoadSystemFont(34);
@@ -32,7 +32,7 @@ void CRTSGame::Initialize()
   infoRed.pi_etTeam = T_BLUE;
 }
 
-void CRTSGame::Update()
+void CAWGame::Update()
 {
   if(Input.IsKeyDown(MKEY_ESCAPE)) {
     Exit();
@@ -48,7 +48,7 @@ void CRTSGame::Update()
   }
 }
 
-void CRTSGame::Render()
+void CAWGame::Render()
 {
   Renderer.SetColor(COL_BLACK|MRAG_ALPHA_OPAQUE);
   Renderer.Clear();
